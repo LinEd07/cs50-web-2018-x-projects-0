@@ -1,4 +1,4 @@
-
+$font: ariel
 
 .fond_bigbig {
   font-size: 55px;
@@ -24,7 +24,7 @@
 
 .font_big {
   font-size: 28px;
-  font-family: ariel;
+  font-family: $fond;
 }
 
 #uppic {
@@ -34,7 +34,7 @@
 footer {
   text-align: center;
   font-size: 18px;
-  font-family: ariel;
+  font-family: $fond;
   color: white;
 }
 
