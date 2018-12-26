@@ -1,5 +1,10 @@
 $font: ariel;
 
+%font {
+  font-size: 28px;
+  font-family: $font;
+}
+
 @media (min-width: 500px) {
  .fond_big {
    font-size: 28px;
@@ -8,7 +13,7 @@ $font: ariel;
  }
  @media (max-width: 499px) {
    .fond_big {
-     font-size: 18px;
+     font-size: 28px;
      font-family: $font;
    }
  }
@@ -42,11 +47,11 @@ tr:hover {
 footer {
   text-align: center;
   p {
-    font-size: 18px;
-    font-family: $font;
+    @extend %font;
     color: white;
   }
   span {
+    @extend %font;
     color: grey;
   }
 }
