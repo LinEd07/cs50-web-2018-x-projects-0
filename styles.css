@@ -1,0 +1,43 @@
+
+
+.fond_bigbig {
+  font-size: 55px;
+  font-family: ariel;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("ufc1.png");
+
+  /* Full height */
+  width: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+}
+
+.transparent {
+  background:rgba(200,200,200,0.8);
+}
+
+.font_big {
+  font-size: 28px;
+  font-family: ariel;
+}
+
+#uppic {
+  background-color: red;
+}
+
+footer {
+  text-align: center;
+  font-size: 18px;
+  font-family: ariel;
+  color: white;
+}
+
+#carousel {
+  height=200px;
+}
