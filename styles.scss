@@ -1,4 +1,4 @@
-$font: ariel
+$font: ariel;
 
 @media (min-width: 500px) {
  .fond_big {
@@ -43,7 +43,7 @@ footer {
   text-align: center;
   p {
     font-size: 18px;
-    font-family: $fond
+    font-family: $fond;
     color: white;
   }
   span {
